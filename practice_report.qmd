@@ -4,6 +4,7 @@ author: "Corneille Ntihabose"
 format:
   html:
     embed-resources: true
+    toc: true
 ---
 
 

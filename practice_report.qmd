@@ -1,5 +1,5 @@
 ---
-title: "First Report as of 04 Oct 2026"
+title: "First report as of 4th October 2026"
 author: "Corneille Ntihabose"
 format:
   html:
@@ -8,10 +8,10 @@ format:
 ---
 
 
-## A first look at the data
+## First Code
 
-The code chunk below reads a small practice dataset from the `data/` folder and
-shows the first few rows.
+The code below shows information about patients' dataset.
+
 
 ```{r}
 patients <- read.csv("data/patients.csv")
@@ -19,6 +19,7 @@ head(patients)
 ```
 
 ## A first chart
+The chart below is about the distribution of age for *patients*:
 
 ```{r}
 hist(patients$age,
@@ -27,7 +28,7 @@ hist(patients$age,
      col  = "steelblue")
 ```
 
-## Your turn
+## My overall comments
 
 - Most of the patients are aged between 40 and 70 years'old. 
 - Student learnt how to add one Markdown feature ( bold, italics, or a list)
@@ -35,7 +36,13 @@ hist(patients$age,
 - I will also add a small calculation here.
 - Then, after the result, I will **commit and sync** this work.
 
-```{r}
-30 + 20
 
-```}
+```{r}
+20+80
+
+```
+
+```{r}
+str(patients)
+
+```
